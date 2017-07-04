@@ -65,7 +65,6 @@ class SearchableSelect(forms.CheckboxSelectMultiple):
             search_field=self.search_field,
             limit=self.limit,
             many=self.many,
-            lenv=len(values)
         ))
 
     def value_from_datadict(self, data, files, name):
